@@ -1,0 +1,119 @@
+.bookings {
+    margin-top: 100px;
+  
+    padding: 0px 30px;
+    padding-bottom: 50px;
+  }
+  
+  .booking-title {
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 2rem;
+  }
+  
+  .filter-widget-wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+  }
+  
+  .filter-widget-01 select,
+  .filter-widget-02 select {
+    border: none;
+    padding: 7px 20px;
+    border-radius: 50px;
+    background: var(--primary-color);
+    color: #000;
+    cursor: pointer;
+    margin-bottom: 2rem;
+  }
+  
+  .car-item {
+    padding: 20px;
+    border-radius: 5px;
+    background: var(--primary-color);
+    cursor: pointer;
+  }
+  
+  .car-item-tile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .car-item-tile h3 {
+    font-size: 1.3rem;
+    color: #000;
+    font-weight: 400;
+  }
+  
+  .car-item-tile span i {
+    font-size: 1.3rem;
+    color: var(--small-text-color);
+    cursor: pointer;
+  }
+  
+  .car-item-top p {
+    color: var(--small-text-color);
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  
+  .car-item-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .car-bottom-left {
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+  }
+  
+  .car-bottom-left p {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    color:#000;
+    font-weight: 300 !important;
+  }
+  
+  .car-bottom-left p i {
+    color: var(--secondary-color);
+  }
+  
+  .car-rent {
+    color:#000;
+    font-size: 1.1rem;
+  }
+  
+  .booking-car-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+  }
+  
+  .car-item-tile h3 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .car-item-top {
+    margin-bottom: 15px;
+  }
+  
+  .car-img {
+    margin-bottom: 20px;
+  }
+  
+  .car-item:nth-child(2) .car-img img,
+  .car-item:nth-child(6) .car-img img,
+  .car-item:nth-child(8) .car-img img {
+    width: 75%;
+  }
+  
+  .car-item:nth-child(4) .car-img img {
+    width: 85%;
+  }
